@@ -1,0 +1,68 @@
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height: 140%;
+  margin: auto;
+  text-align: center;
+  font-family:"Times New Roman", Times, serif;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+ul{
+    text-align: center;
+}
+li{
+    text-align: center;
+}
+
+
+#gameSection {
+    margin-top: 20px;
+    display: none; /* Initially hide the game section */
+}
+
+canvas {
+    border: 1px solid black;
+    display: block; /* Ensures the canvas is treated as a block element */
+    margin: 0 auto; /* Center the canvas */
+}
+
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 120%;
+}
+
+#Home {background-color: forestgreen;}
+#News {background-color: forestgreen;}
+#Contact {background-color: forestgreen;}
+#About {background-color: forestgreen;}
+
+
+/* Hidden class to manage visibility */
+.hidden {
+    display: none;
+}

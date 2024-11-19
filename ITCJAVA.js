@@ -34,6 +34,9 @@ function openPage(pageName, elmnt, color) {
       }, 0);
     } else if (clickCount === 3) {
       // On the fourth click, open the link
+      setTimeout(()=> {
+        document.getElementById(pageName).style.display = "block";
+      }, 0);
       window.open('https://tinyurl.com/rroll154', '_blank'); // Change this URL to your desired link
       // Reset the click count after opening the link
       clickCount = 0;
